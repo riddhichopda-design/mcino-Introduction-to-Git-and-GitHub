@@ -1,0 +1,22 @@
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/12923 | grep -E '"html_url"|"number"|"title"|"state"|"head"|"base"|"full_name"'
+
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/12923",
+  "number": 12923,
+  "state": "closed",
+  "title": "Bug fix revert",
+  "head": {
+    "label": "riddhichopda-design:bug-fix-revert",
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "riddhichopda-design/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/riddhichopda-design/mcino-Introduction-to-Git-and-GitHub"
+    }
+  },
+  "base": {
+    "label": "ibm-developer-skills-network:main",
+    "ref": "main",
+    "repo": {
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
